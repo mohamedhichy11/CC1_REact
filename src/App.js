@@ -9,7 +9,6 @@ import Add_to_list from "./todolist/todolist";
 function App() {
   return <Router>
     <NavBar/>
-    <Home />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/silder" element={<Slider />} />
