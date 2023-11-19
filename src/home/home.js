@@ -13,7 +13,7 @@ export default function Home() {
       welcometo: "young 20 years old, passionate about website development, programming, and finding solutions to problems. I am currently studying in a professional training institute about this field and I try to develop my personality and programming skills daily.",
     },
     france: {
-      helloIm: "Bonjour, je m'appelle Hichy",
+      helloIm: "Bonjour, Je m'appelle Hichy",
       welcometo: "jeune de 20 ans , passionné par website development ,la programmation ,et trouver les solution des problèmes.J'étudie actuellement dans un institut de formation professionnelle à propos de ce domaine et J'essaie quotidiennement de développer ma personnalité et mes compétences en programmation.",
     },
     spain: {
