@@ -60,7 +60,7 @@ export default function NavBar() {
             style={{ color: Moon_sun().color }}
           ></i>
         </a>
-        <Link to="/silder">SLIDER TP</Link>
+        <Link to="/slider">SLIDER TP</Link>
         <Link to="/calculator">CALCULATOR</Link>
         <Link to="/TODOLIST">TO DO LIST</Link>
         <Link to="/listeProduct">API TP</Link>
