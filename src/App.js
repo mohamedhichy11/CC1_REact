@@ -7,8 +7,8 @@ import Calculator from "./calcule/calcu";
 import Add_to_list from "./todolist/todolist";
 
 function App() {
-  return <Router>
-    <NavBar/>
+  return <>
+  <NavBar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/silder" element={<Slider />} />
@@ -16,7 +16,9 @@ function App() {
         <Route path="/TODOLIST" element={<Add_to_list />} />
         <Route path="/listeProduct" element={<ProductList />} />
       </Routes>
-    </Router>
+  </>
+    
+    
   
 }
 export default App;
