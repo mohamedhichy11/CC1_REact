@@ -1,0 +1,102 @@
+.nextbtn{
+    background-color: #333;
+      width: 100px;
+      height: 100px;
+      padding: 40px 50px;
+      border-radius: 100px;
+      border: none;
+    }
+.nextbtn:hover{
+        cursor: pointer;
+        background-color: black;
+        transition: 0.8s;
+    }
+.Prevbtn{
+    background-color: #333;
+      width: 100px;
+      height: 100px;
+        padding: 40px 50px;
+      border-radius: 100px;
+    border: none;
+    transition: 0.8s;
+    }
+#nextbtn{
+        position: relative;
+        color: #fff;
+        font-size: 30px;
+        right: 10px;
+        top: -6px;
+    } 
+
+#Prevbtn{
+  position: relative;
+  color: #fff;
+  font-size: 30px;
+  right: 18px;
+  top: -6px;
+}
+.Prevbtn:hover{
+        cursor: pointer;
+        background-color: black;
+        transition: 0.8s;
+    }
+.content{
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-top: 100px;
+  
+    }
+.divbtn1{
+  width: 100px;
+  margin: auto;
+}
+.divbtn2{
+  margin: auto;
+
+}
+   
+    @media only screen and (max-width: 500px) {
+      .nextbtn{
+        background-color: #333;
+          width: 100px;
+          height: 100px;
+          top: 340px;
+          padding: 40px 50px;
+          border-radius: 100px;
+          border: none;
+        }
+        #nextbtn{
+          position: relative;
+          color: #fff;
+          font-size: 20px;
+          right: -10px;
+          top: 0px;
+      } 
+
+
+      /*--------------*/
+      #Prevbtn{
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        left:-24px;
+        top: 0px;
+      }
+
+      .Prevbtn{
+        background-color: #333;
+          width: 100px;
+          height: 100px;
+          padding: 40px 50px;
+          border-radius: 100px;
+        border: none;
+        transition: 0.8s;
+        }
+        .content{
+          margin-top: 100px;
+        }
+
+  }

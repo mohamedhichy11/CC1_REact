@@ -1,0 +1,82 @@
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url('myphoto.jpg') no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main .helloIm{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.cc1{
+    font-weight: 600;
+    color: rgb(179, 116, 237);
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.welcometo{
+    font-weight: 500;
+    font-size: 20px;
+    width: auto;
+    color: #fff;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 37px;
+}
+
+.divbtnlin{
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(179, 116, 237);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.6s ease;
+}
+#lin{
+    margin-right: 10px;
+}
+.divbtnlin:hover{
+    background-color: rgb(233, 209, 255);
+    color:blueviolet;
+    transition: 0.6s ease;
+}
+.social-media{
+    margin-top: 40px;
+}
+.social-media a{
+    margin-left:20px ;
+    font-size: 30px;
+    color: #fff;
+}
+.social-media a :hover{
+    color: rgb(233, 209, 255);
+}
+.langue{
+   margin-top: 20px;
+}
+.langue img{
+    width: 60px;
+    margin-left: 10px;
+}
+.uLangue{
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 0;
+}
+@media only screen and (max-width: 600px) {
+    section{
+      padding-left:130px;
+    }
+}

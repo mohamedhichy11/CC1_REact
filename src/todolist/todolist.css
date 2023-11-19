@@ -1,0 +1,154 @@
+.todolist_cadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    height: 50px;
+}
+.cadre_task_todolist {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    max-height: auto;
+    background-color: #4d4d4d;
+    box-shadow: 10px 1px 40px 1px rgb(29, 29, 29);
+    justify-content: left;
+    padding-left: 20px;
+    padding-top: 13px;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(34, 221, 159);
+    text-transform: uppercase;
+}
+.cadre_task_todolist:hover{
+    cursor: pointer;
+}
+.btn_Remove_todolist{
+    height: 50px;
+    width: 50px;
+    outline: none;
+    border: none;
+    background-color:#ff3632 ;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.5s;
+}
+.btn_Remove_todolist:hover{
+    color: #ff3632;
+    background-color:white ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn_modify_todolist{
+    height: 50px;
+    width: 50px;
+    outline: none;
+    border: none;
+    background-color:rgb(34, 221, 159) ;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.5s;
+}
+.btn_modify_todolist:hover{
+    color: rgb(34, 221, 159);
+    background-color:white ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn_save_todolist{
+    position: relative;
+    top: 0.6px;
+    height: 50px;
+    width: 50px;
+    outline: none;
+    border: none;
+    background-color:rgb(34, 221, 159) ;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.5s;
+}
+.btn_save_todolist:hover{
+    color: rgb(34, 221, 159);
+    background-color:white ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.new_taskk_todolist{
+    position: relative;
+    top: -0.5px;
+  height: 50px;
+  outline: none;
+  border: 0;
+  padding-left: 10px;
+}
+.todolist_titre{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    transition: 0.8s;
+}
+.todolist_titre:hover{
+        color:rgb(34, 221, 159);
+        transition: 0.8s;
+        cursor: default;
+}
+.containertodolist{
+    position: relative;
+    top: 20px;
+    background-color: #343434;
+    margin: auto;
+    margin-top: 80px;
+    border: 1px solid #000;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    border: 4px solid rgb(34, 221, 159);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.input_and_add{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.inputtodolist{
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #fff;
+}
+.btnAddtodolist{
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color:rgb(34, 221, 159) ;
+   font-size: 15px;
+   transition: 0.7s;
+   outline: none;
+}
+.btnAddtodolist:hover{
+    cursor: pointer;
+    background-color:rgb(28, 187, 134) ;
+    transition: 0.7s;
+}
+#logo_list_todolist{
+    margin-right: 10px;
+}
+#checkbtn_todolist{
+    margin-right: 10px;
+    display:none;
+    color: rgb(28, 187, 134);
+ }
+
+
+
+

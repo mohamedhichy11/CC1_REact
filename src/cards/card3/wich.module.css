@@ -1,0 +1,111 @@
+.cont3{
+width: 888px;
+height: 500px;
+margin: auto;
+filter: drop-shadow(5px 5px 20px #555);
+}
+.card3{
+width: 888px;
+height: 500px;
+background-repeat: no-repeat;
+background-image: url("wichfire.png");
+border-radius: 30px;
+box-shadow: inset 100px 0px 200px #000;
+background-size: contain;
+}
+
+#logo3{
+width: 300px;
+position: relative;
+top: 50px;
+left: 60px;
+}
+.dispo3{
+color: #fff;
+font-family: 'Poppins',sans-serif; 
+position: relative;
+top: 30px;
+left: 60px;
+
+}
+.textGame3{
+color: #fff;
+font-family: 'Poppins',sans-serif; 
+position: relative;
+width: 350px;
+top: 70px;
+left: 60px;
+font-weight: 600;
+}
+.prix3{
+color: #fff;
+font-family: 'Poppins',sans-serif; 
+position: relative;
+top: 120px;
+left: 60px;
+}
+#span3{
+margin-left: 10px;
+font-family: 'Poppins',sans-serif; 
+font-weight:700 ;
+}
+
+.btnAchete3{
+color: #000;
+position: relative;
+font-family: 'Poppins',sans-serif; 
+background-color: #fff;
+width: 270px;
+border-radius: 30px;
+top: 170px;
+left: 60px;
+padding: 20px 40px;
+transition: 0.8s;
+}
+.btnAchete3:hover{
+background-color: #d4d4d4;
+cursor: pointer;
+transition: 0.8s;
+}
+
+@media only screen and (max-width: 1100px) {
+    .cont3 {
+        position: relative;
+        width:300px;
+        height: 500px;
+        margin: auto;
+        top: 30px;
+    }
+    .card3{
+        width:400px ;
+        margin-left: -50px;
+        background-size: cover;
+
+    }
+    .textGame3{
+        width: 300px;
+        position: relative;
+        top: 90px;
+        left: 50px;
+        }
+        #logo3{
+            position: relative;
+            left: 50px;
+        }
+        
+        .dispo3{   
+            position: relative;
+            top: 45px;
+            left: 50px;
+        }
+        .prix3{
+            position: relative;
+            top: 140px;
+            left: 50px;
+            }
+        .btnAchete3{
+           
+            position: relative;
+            top: 180px;
+            }
+}

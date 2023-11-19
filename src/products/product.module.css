@@ -1,0 +1,21 @@
+#divAPI{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 50px;
+
+}
+.table_h1{
+    margin: auto;
+    text-align: center;
+   
+}
+
+table,tr,th,td{
+    border: 3px solid #000 ;
+    border-collapse: collapse;
+    margin: auto;  
+}
+
+#tdPrix{
+    padding: 10px;
+}
